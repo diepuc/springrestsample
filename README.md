@@ -5,13 +5,14 @@ Per questo motivo ho inserito una fase di preload dove vengono inseriti un paese
 
 Le tecnologie utilizzare sono le seguenti:
 * Spring boot
-* JPA e DB H2;
-* AOP (esempio di programmazione orientata agli aspetti), utile per gestire log (come in questo caso), ma anche per verificare il tempo si esecuzione delle chiamate o altro;
+* JPA e DB H2
+* AOP (esempio di programmazione orientata agli aspetti), utile per gestire log (come in questo caso), ma anche per verificare il tempo si esecuzione delle chiamate o altro
 * Validazione delle API rest
 * Documentazione API rest con swagger
 * Possibilità di utilizzare il link http://localhost:8080/swagger-ui/index.html per testare il funzionamento
 * Lombok (comodo per ridurre la verbosità di java)
-* Modelmapper per la conversione da entity a dto e viceversa.
+* Modelmapper per la conversione da entity a dto e viceversa
+* Test automatici che testano tutti i metodi dei rest con spring-boot-starter-test
 
 
 L'eseguibile viene creato con il seguente script:

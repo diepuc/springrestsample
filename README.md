@@ -48,6 +48,6 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 * poi con docker-compose si crea il file yaml per gestire l'intero stack con un servizio per il db e uno per l'applicazione.
 
 #### Responce con link navigabili invece del dettaglio degli oggetti collegati.
-Un altra miglioria utile per un eventuale front-end è sostituire i dettagli degli oggeti collegati con un url navigabile già pronto,
+Un'altra miglioria utile per un eventuale front-end è sostituire i dettagli degli oggeti collegati con un url navigabile già pronto,
 in modo che per vederne il dettaglio bisogna navigare tale link,
-rendento la navigazione più leggera e quindi più reattiva.
+rendendo la navigazione più leggera e quindi più reattiva.
